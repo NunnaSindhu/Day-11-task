@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input elements</title>
+</head>
+<body>
+    <p>11.Create an HTML page, which should contain all types of input elements.</p>
+<h3 style="text-align: center;">All types of input elements</h3><hr>
+<div>
+<label for="fname">FirstName:</label>
+<input type="text" id="fname" name="fname" placeholder="FirstName" required><br><br>
+<label for="mname">MiddleName:</label>
+<input type="text" id="mname" name="mname" placeholder="MiddleName" required><br><br>
+<label for="lname">LastName:</label>
+<input type="text" id="lname" name="lname" placeholder="LastName" required><br><br>
+<label>Department:</label>
+<select>
+	<option value="BCA">Management</option>
+	<option value="BBA">Human resource</option>
+	<option value="B.TECH">Customer Support</option>
+	<option value="MBA">development</option>
+	<option value="MCA">business</option>
+	<option value="M.TECH">Corporate Finance</option>
+</select>
+</div><br>
+<div>
+	<label>Gender:</label><br>
+	<input type="radio" value="Male" name="Gender"><label>Male</label><br>
+	<input type="radio" value="Female" name="Gender"><label>Female</label><br>
+	<input type="radio" value="other" name="Gender"><label>Other</label><br>
+</div>
+<label for="Phone">Phone:</label>
+<input type="text" id="Phone"name="Phone" value="+91" size="2">
+<input type="tel" id="Phone"name="Phone" name="Phone" pattern="[0-9]{4}-[0-9]{6}" size="10" placeholder="1234-567890"><br>
+<label for="addr">Current Address:</label>
+<textarea id="addr" rows="5" cols="20"><!--Text area gives a space to write paragraph or address--></textarea><br><br>
+<label >Preferred method of Contact:</label><br>
+<label for="contact">Email</label>
+<input type="checkbox" id="contact" name="contact type" value="email"/>
+<label for="contact">Phone</label>
+<input type="checkbox" id="contact" name="contact type" value="Phone"/><br><br>
+<label for="resume">Drop your Resume:</label>
+<input type="file" id="resume" name="resume" required><br><br>
+<label for="email"><b>Email:</b></label>
+<input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+<label for="password"><b>Password:</b></label>
+<input type="password" id="password" name="password" placeholder="Password" required><br><br>
+<label for="rpassword"><b>Re-type Password:</b></label>
+<input type="password" id="rpassword" name="rpassword" placeholder="Retype Password" required><br><br>
+<label for="birth time">Time of Birth:</label>
+<input type="time" id="birthtime" name="birthtime" ><br><br>
+<label for="color">Favorite Color</label>
+<input type="color" id="color" name="fav color"><br><br>
+<label for="number">Select Number</label>
+<input type="Number" id="number" name="number" min="1" max="9"><br><br>
+<label>Range:</label>
+<input type="range" id="range" name="range" min="10" max="100"><br><br>
+<label for="search">Search Here</label>
+<input type="search" id="search" name="search"><br><br>
+<label for="url">Add URL</label>
+<input type="url" id="url" name="url"><br><br>
+<input type="submit" value="Register"> 
+<input type="reset" value="Reset">
+</body>
+</html>
+

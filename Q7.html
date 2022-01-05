@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designing of Form</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      span {
+  
+        text-decoration: overline;
+        margin: 0px;
+        width: 100%;
+        padding-top: 10px;
+      }
+      label {
+        font-weight: bold;
+      }
+      h3 {
+        color: white;
+        padding-bottom: 20px;
+      }
+      h3 span {
+        background-color: red;
+        border-radius: 1px;
+      }
+      div {
+        box-sizing: border-box;
+        border: 2px solid rgb(59, 24, 24);
+        width: 350px;
+        height: 250px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3 styele="text-decoration: none"><span>Yes! I want to subscribe to Mag-O-Zine</span></h3>
+      <span>First Name</span>
+      <span>Last Name</span><br /><br />
+      <span>Address</span><br /><br />
+      <span>City</span>
+      <span>State</span>
+      <span>Zip</span><br /><br />
+      <label for="subscribefor"><b>Subscribe for:</b></label>
+      <input type="radio" name="subscribe" value="1 year" />
+      <label for="subscribefor"><b>1 year($19.91)</b></label>
+      <input type="radio" name="subscribe" value="1 year" />
+      <label for="subscribefor"><b>2 year($35.00)</b></label
+      ><br />
+      <label>Send me more information about:</label><br />
+      <input type="checkbox" id="computer-zine" name="information" />
+      <label for="computer-zine">Computer-Zine</label><br />
+      <input type="checkbox" id="fishing-zine" name="information" />
+      <label for="fishing-zine">Fishing-Zine</label><br />
+      <input type="checkbox" id="Cai-O-zine" name="information" />
+      <label for="Cai-O-zine">Cai-O-Zine</label>
+    </div>
+  </body>
+</html>
